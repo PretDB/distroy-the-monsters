@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="小游戏.exe" version="1.0.0.0" publicKeyToken="7ce3da66d7528c9c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="小游戏" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="小游戏.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="小游戏.exe" size="12288">
+      <assemblyIdentity name="小游戏" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JmhF3djbZ80d9EedGxSQ0hwhh+UGib5vaXTYbspLWdY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="小游戏.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Pret-PC\Pret" issuerKeyHash="40ce8cffe41fa67f10cd03d87f9f74a087923339" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>m+pFavbwvIjIFqCjYx09IwjiusbNvWXW0XaGA1Z1me0=</DigestValue></Reference></SignedInfo><SignatureValue>iVK7GVWJ267xEAX+GCCvtCjUdBAqLtf6OHSfX5TH4giS0O0mtKoLhc07klVyxdY+50/w8X38upkrjshbVNY5iATwE1DjwEXKnUTF9miCPtnVkEd35owy1lDOKLRmmJJw8qg5rhzojE0cCcedBG4utvCJUGtdBdP6dIV58cEngc8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nqZvJr1hQ1dCrsTn+GlyxA1zdRY6EFk7/+oGO14FRW8rBvx/BWvrN7mP6ZDOa1Xm0V2CI/PWZLDR+P99fgdj1UosJ+oImfQZ1e4dG2uWT8ubJbr8WfuCKvRZ58pPygk9nx+9DMSAEn/Ddl3AU8I2g6v/jsItAoxmuEvwhEnRjps=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ed997556038676d1d665bdcdc6bae208233d1d63a3a016c888bcf0f66a45ea9b" Description="" Url=""><as:assemblyIdentity name="小游戏.exe" version="1.0.0.0" publicKeyToken="7ce3da66d7528c9c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Pret-PC\Pret</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1DInPKjs7aVpsLml6lHRbk98IbU+audCr1dfK0xR7DE=</DigestValue></Reference></SignedInfo><SignatureValue>PQXEtTsUeyy0EObV36OZiwGpXVo+EYqC43qmts9QUWSaKjkOKEXycUMQDJwUz3ihwBdkyb6Of3vVup8/+m2eKJ9822IUUjcXv3WORMIWGYGJe+kjO7Vb2g3zkB7ITx6DIBYsE6G4MIFeMqv/SGTc9e4zGS/AJvKBDIHRvQF3rno=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nqZvJr1hQ1dCrsTn+GlyxA1zdRY6EFk7/+oGO14FRW8rBvx/BWvrN7mP6ZDOa1Xm0V2CI/PWZLDR+P99fgdj1UosJ+oImfQZ1e4dG2uWT8ubJbr8WfuCKvRZ58pPygk9nx+9DMSAEn/Ddl3AU8I2g6v/jsItAoxmuEvwhEnRjps=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQHdHdQZ9NC5dM19BZSFec+DANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUAByAGUAdAAtAFAAQwBcAFAAcgBlAHQwHhcNMTYwMjI3MDQxMzExWhcNMTcwMjI2MTAxMzExWjAjMSEwHwYDVQQDHhgAUAByAGUAdAAtAFAAQwBcAFAAcgBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ6mbya9YUNXQq7E5/hpcsQNc3UWOhBZO//qBjteBUVvKwb8fwVr6ze5j+mQzmtV5tFdgiPz1mSw0fj/fX4HY9VKLCfqCJn0GdXuHRtrlk/LmyW6/Fn7gir0WefKT8oJPZ8fvQzEgBJ/w3ZdwFPCNoOr/47CLQKMZrhL8IRJ0Y6bAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAe0T93NZaXoK5zkZ/N+nowPF8Z9q25yEjRf09+ijr62FGa7b6htfMPR0NXqL161ASqecUZuz6X8hgnuoNl4GtX7jgt8H5uuFdVAQwjhklKL7idvFNua11AzW5Kfvc1wACpATpTHWQDrgb0Jy7RQrPNGJtqYiwrJAtUebnw28eaYY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
